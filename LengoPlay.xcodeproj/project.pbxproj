@@ -24,6 +24,9 @@
 		E405CE0C2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */; };
 		E405CE0D2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */; };
 		E405CE0E2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */; };
+		E405CE112B698B5F0085A021 /* BeforeStarting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CE102B698B5F0085A021 /* BeforeStarting.swift */; };
+		E405CE122B698B5F0085A021 /* BeforeStarting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CE102B698B5F0085A021 /* BeforeStarting.swift */; };
+		E405CE132B698B5F0085A021 /* BeforeStarting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CE102B698B5F0085A021 /* BeforeStarting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkayaTelivigala-Regular.ttf"; sourceTree = "<group>"; };
 		E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
 		E405CE0F2B6985C70085A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E405CE102B698B5F0085A021 /* BeforeStarting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeStarting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				E405CDD72B6984040085A021 /* LengoPlayApp.swift */,
 				E405CDD92B6984040085A021 /* ContentView.swift */,
 				E405CE012B69844E0085A021 /* SlowPrint.swift */,
+				E405CE102B698B5F0085A021 /* BeforeStarting.swift */,
 				E405CDDB2B6984060085A021 /* Assets.xcassets */,
 				E405CE032B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf */,
 				E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */,
@@ -288,6 +293,7 @@
 			files = (
 				E405CDDA2B6984040085A021 /* ContentView.swift in Sources */,
 				E405CE022B69844E0085A021 /* SlowPrint.swift in Sources */,
+				E405CE112B698B5F0085A021 /* BeforeStarting.swift in Sources */,
 				E405CDD82B6984040085A021 /* LengoPlayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E405CE122B698B5F0085A021 /* BeforeStarting.swift in Sources */,
 				E405CDE92B6984060085A021 /* LengoPlayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E405CDF52B6984060085A021 /* LengoPlayUITestsLaunchTests.swift in Sources */,
+				E405CE132B698B5F0085A021 /* BeforeStarting.swift in Sources */,
 				E405CDF32B6984060085A021 /* LengoPlayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
