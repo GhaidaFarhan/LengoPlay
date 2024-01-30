@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E405CDD82B6984040085A021 /* LengoPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CDD72B6984040085A021 /* LengoPlayApp.swift */; };
+		E405CDDA2B6984040085A021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CDD92B6984040085A021 /* ContentView.swift */; };
+		E405CDDC2B6984060085A021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E405CDDB2B6984060085A021 /* Assets.xcassets */; };
+		E405CDDF2B6984060085A021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E405CDDE2B6984060085A021 /* Preview Assets.xcassets */; };
+		E405CDE92B6984060085A021 /* LengoPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CDE82B6984060085A021 /* LengoPlayTests.swift */; };
+		E405CDF32B6984060085A021 /* LengoPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CDF22B6984060085A021 /* LengoPlayUITests.swift */; };
+		E405CDF52B6984060085A021 /* LengoPlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CDF42B6984060085A021 /* LengoPlayUITestsLaunchTests.swift */; };
+		E405CE022B69844E0085A021 /* SlowPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405CE012B69844E0085A021 /* SlowPrint.swift */; };
+		E405CE042B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE032B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf */; };
+		E405CE052B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE032B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf */; };
+		E405CE062B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE032B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf */; };
+		E405CE082B69859C0085A021 /* AkayaTelivigala-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */; };
+		E405CE092B69859C0085A021 /* AkayaTelivigala-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */; };
+		E405CE0A2B69859C0085A021 /* AkayaTelivigala-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */; };
+		E405CE0C2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */; };
+		E405CE0D2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */; };
+		E405CE0E2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E405CDE52B6984060085A021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E405CDCC2B6984040085A021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E405CDD32B6984040085A021;
+			remoteInfo = LengoPlay;
+		};
+		E405CDEF2B6984060085A021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E405CDCC2B6984040085A021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E405CDD32B6984040085A021;
+			remoteInfo = LengoPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E405CDD42B6984040085A021 /* LengoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LengoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405CDD72B6984040085A021 /* LengoPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengoPlayApp.swift; sourceTree = "<group>"; };
+		E405CDD92B6984040085A021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E405CDDB2B6984060085A021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E405CDDE2B6984060085A021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E405CDE42B6984060085A021 /* LengoPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LengoPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405CDE82B6984060085A021 /* LengoPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengoPlayTests.swift; sourceTree = "<group>"; };
+		E405CDEE2B6984060085A021 /* LengoPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LengoPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405CDF22B6984060085A021 /* LengoPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengoPlayUITests.swift; sourceTree = "<group>"; };
+		E405CDF42B6984060085A021 /* LengoPlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengoPlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E405CE012B69844E0085A021 /* SlowPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowPrint.swift; sourceTree = "<group>"; };
+		E405CE032B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkayaTelivigala-Regular.ttf"; sourceTree = "<group>"; };
+		E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E405CE0F2B6985C70085A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E405CDD12B6984040085A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405CDE12B6984060085A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405CDEB2B6984060085A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E405CDCB2B6984040085A021 = {
+			isa = PBXGroup;
+			children = (
+				E405CDD62B6984040085A021 /* LengoPlay */,
+				E405CDE72B6984060085A021 /* LengoPlayTests */,
+				E405CDF12B6984060085A021 /* LengoPlayUITests */,
+				E405CDD52B6984040085A021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E405CDD52B6984040085A021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E405CDD42B6984040085A021 /* LengoPlay.app */,
+				E405CDE42B6984060085A021 /* LengoPlayTests.xctest */,
+				E405CDEE2B6984060085A021 /* LengoPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E405CDD62B6984040085A021 /* LengoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				E405CE0F2B6985C70085A021 /* Info.plist */,
+				E405CDD72B6984040085A021 /* LengoPlayApp.swift */,
+				E405CDD92B6984040085A021 /* ContentView.swift */,
+				E405CE012B69844E0085A021 /* SlowPrint.swift */,
+				E405CDDB2B6984060085A021 /* Assets.xcassets */,
+				E405CE032B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf */,
+				E405CE072B69859C0085A021 /* AkayaTelivigala-Regular.ttf */,
+				E405CE0B2B6985B30085A021 /* Merriweather-BoldItalic.ttf */,
+				E405CDDD2B6984060085A021 /* Preview Content */,
+			);
+			path = LengoPlay;
+			sourceTree = "<group>";
+		};
+		E405CDDD2B6984060085A021 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E405CDDE2B6984060085A021 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E405CDE72B6984060085A021 /* LengoPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E405CDE82B6984060085A021 /* LengoPlayTests.swift */,
+			);
+			path = LengoPlayTests;
+			sourceTree = "<group>";
+		};
+		E405CDF12B6984060085A021 /* LengoPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E405CDF22B6984060085A021 /* LengoPlayUITests.swift */,
+				E405CDF42B6984060085A021 /* LengoPlayUITestsLaunchTests.swift */,
+			);
+			path = LengoPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E405CDD32B6984040085A021 /* LengoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405CDF82B6984060085A021 /* Build configuration list for PBXNativeTarget "LengoPlay" */;
+			buildPhases = (
+				E405CDD02B6984040085A021 /* Sources */,
+				E405CDD12B6984040085A021 /* Frameworks */,
+				E405CDD22B6984040085A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LengoPlay;
+			productName = LengoPlay;
+			productReference = E405CDD42B6984040085A021 /* LengoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E405CDE32B6984060085A021 /* LengoPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405CDFB2B6984060085A021 /* Build configuration list for PBXNativeTarget "LengoPlayTests" */;
+			buildPhases = (
+				E405CDE02B6984060085A021 /* Sources */,
+				E405CDE12B6984060085A021 /* Frameworks */,
+				E405CDE22B6984060085A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E405CDE62B6984060085A021 /* PBXTargetDependency */,
+			);
+			name = LengoPlayTests;
+			productName = LengoPlayTests;
+			productReference = E405CDE42B6984060085A021 /* LengoPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E405CDED2B6984060085A021 /* LengoPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405CDFE2B6984060085A021 /* Build configuration list for PBXNativeTarget "LengoPlayUITests" */;
+			buildPhases = (
+				E405CDEA2B6984060085A021 /* Sources */,
+				E405CDEB2B6984060085A021 /* Frameworks */,
+				E405CDEC2B6984060085A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E405CDF02B6984060085A021 /* PBXTargetDependency */,
+			);
+			name = LengoPlayUITests;
+			productName = LengoPlayUITests;
+			productReference = E405CDEE2B6984060085A021 /* LengoPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E405CDCC2B6984040085A021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E405CDD32B6984040085A021 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E405CDE32B6984060085A021 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E405CDD32B6984040085A021;
+					};
+					E405CDED2B6984060085A021 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E405CDD32B6984040085A021;
+					};
+				};
+			};
+			buildConfigurationList = E405CDCF2B6984040085A021 /* Build configuration list for PBXProject "LengoPlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E405CDCB2B6984040085A021;
+			productRefGroup = E405CDD52B6984040085A021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E405CDD32B6984040085A021 /* LengoPlay */,
+				E405CDE32B6984060085A021 /* LengoPlayTests */,
+				E405CDED2B6984060085A021 /* LengoPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E405CDD22B6984040085A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405CDDF2B6984060085A021 /* Preview Assets.xcassets in Resources */,
+				E405CE042B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf in Resources */,
+				E405CE0C2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */,
+				E405CDDC2B6984060085A021 /* Assets.xcassets in Resources */,
+				E405CE082B69859C0085A021 /* AkayaTelivigala-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405CDE22B6984060085A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405CE052B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf in Resources */,
+				E405CE0D2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */,
+				E405CE092B69859C0085A021 /* AkayaTelivigala-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405CDEC2B6984060085A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405CE062B6985760085A021 /* Lora-Italic-VariableFont_wght.ttf in Resources */,
+				E405CE0E2B6985B30085A021 /* Merriweather-BoldItalic.ttf in Resources */,
+				E405CE0A2B69859C0085A021 /* AkayaTelivigala-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E405CDD02B6984040085A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405CDDA2B6984040085A021 /* ContentView.swift in Sources */,
+				E405CE022B69844E0085A021 /* SlowPrint.swift in Sources */,
+				E405CDD82B6984040085A021 /* LengoPlayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405CDE02B6984060085A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405CDE92B6984060085A021 /* LengoPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405CDEA2B6984060085A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405CDF52B6984060085A021 /* LengoPlayUITestsLaunchTests.swift in Sources */,
+				E405CDF32B6984060085A021 /* LengoPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E405CDE62B6984060085A021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E405CDD32B6984040085A021 /* LengoPlay */;
+			targetProxy = E405CDE52B6984060085A021 /* PBXContainerItemProxy */;
+		};
+		E405CDF02B6984060085A021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E405CDD32B6984040085A021 /* LengoPlay */;
+			targetProxy = E405CDEF2B6984060085A021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E405CDF62B6984060085A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E405CDF72B6984060085A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E405CDF92B6984060085A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LengoPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 337877YBW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LengoPlay/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ghaida.LengoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E405CDFA2B6984060085A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LengoPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 337877YBW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LengoPlay/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ghaida.LengoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E405CDFC2B6984060085A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337877YBW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ghaida.LengoPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LengoPlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LengoPlay";
+			};
+			name = Debug;
+		};
+		E405CDFD2B6984060085A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337877YBW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ghaida.LengoPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LengoPlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LengoPlay";
+			};
+			name = Release;
+		};
+		E405CDFF2B6984060085A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337877YBW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ghaida.LengoPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LengoPlay;
+			};
+			name = Debug;
+		};
+		E405CE002B6984060085A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337877YBW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ghaida.LengoPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LengoPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E405CDCF2B6984040085A021 /* Build configuration list for PBXProject "LengoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405CDF62B6984060085A021 /* Debug */,
+				E405CDF72B6984060085A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405CDF82B6984060085A021 /* Build configuration list for PBXNativeTarget "LengoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405CDF92B6984060085A021 /* Debug */,
+				E405CDFA2B6984060085A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405CDFB2B6984060085A021 /* Build configuration list for PBXNativeTarget "LengoPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405CDFC2B6984060085A021 /* Debug */,
+				E405CDFD2B6984060085A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405CDFE2B6984060085A021 /* Build configuration list for PBXNativeTarget "LengoPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405CDFF2B6984060085A021 /* Debug */,
+				E405CE002B6984060085A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E405CDCC2B6984040085A021 /* Project object */;
+}
