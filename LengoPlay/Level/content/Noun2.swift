@@ -1,18 +1,20 @@
 //
-//  Basic.swift
+//  Noun2.swift
 //  LengoPlay
 //
-//  Created by Ghaida Farhan on 1/30/24.
+//  Created by Ghaida Farhan on 2/11/24.
 //
 
 import SwiftUI
 
-struct Basic: View {
+struct Noun2: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    Basic()
+    Noun2()
 }
+
+

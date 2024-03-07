@@ -10,8 +10,11 @@ import SwiftUI
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
+       
         NavigationStack{
+           
             ZStack{
                 Image("Background")
                     .resizable()
@@ -27,7 +30,7 @@ struct ContentView: View {
                         .foregroundColor(.ourBlue)
                     
                     NavigationLink{
-                        BeforeStarting()
+                        BeforeStarting(languages: .Arabic)
                         
                     } label: {
                         Label("Let's go!",systemImage: "")

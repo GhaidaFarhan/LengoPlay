@@ -8,57 +8,76 @@
 import SwiftUI
 
 struct BeforeStarting: View {
-    let languages = ["Arabic","Bengali","",""]
+   @State var languages : Native
+    
     var body: some View {
-        ZStack {
-            Image("Background")
-                .resizable()
-                .ignoresSafeArea()
-                .frame(width: 500)
-            
-            VStack(spacing: 20) {
-                Text("Before you start...")
-                    .font(Font.custom("Merriweather-BoldItalic", size: 30))
-                    .foregroundColor(.ourBlue)
+        NavigationStack {
+            ZStack {
+                Image("Background")
+                    .resizable()
+                    .ignoresSafeArea()
+                    .frame(width: 500)
                 
-                Text("Select your language:")
-                    .font(Font.custom("Merriweather-BoldItalic", size: 30))
-                    .foregroundColor(.ourBlue)
-                
-                HStack {
-                    ZStack {
-                        Text("Language")
-                            .font(Font.custom("AkayaTelivigala-Regular", size: 30))
-                            .frame(width: 330, height: 20)
-                            .foregroundColor(.ourBegie)
-                            .padding(20)
-                            .background(Color.ourGreen)
-                            .cornerRadius(10)
+                VStack(spacing: 20) {
+                    Text("Before you start...")
+                        .font(Font.custom("Merriweather-BoldItalic", size: 20))
+                        .foregroundColor(.ourBlue)
                     
-                        HStack {
-                        Spacer()
-                            Image(systemName: "chevron.right")
-                                .font(Font.system(size: 30))
-                                .foregroundColor(.ourBlue)
-                                .padding(.trailing, 10)
-                        }
+                        .padding(50)
+                    
+                    Text("Select your native language:")
+                        .font(Font.custom("Merriweather-BoldItalic", size: 28))
+                        .foregroundColor(.ourBlue)
+                    
+                    HStack {
+                        ZStack {
+                            
+                            Form {
+                                
+                                Section {
+                                    Picker("Language" , selection: $languages){
+                                        ForEach(Native.allCases, id: \.self)
+                                        {native in
+                                            Text("\(native)".capitalized).tag(native)}
+                                        .font(Font.custom("AkayaTelivigala-Regular", size: 40))
+                                       
+                                    }
+                                } // listRowBackgroun change the background of the picker
+                                .listRowBackground(Color.ourGreen)
+                                 .foregroundColor(.ourBegie)
+                                .padding(1)
+                                .cornerRadius(10)
+                                
+                            }
+                            
+
+                            .scrollContentBackground(.hidden)
+                            
+                            
+                        }.padding()
+                        
+                        
+                    }.padding()
+                    
+                    .padding(.bottom, 20)
+                    
+                    Spacer()
+                    NavigationLink{
+                        Level()
+                    }label:{Label("Next..", systemImage: "")
+                            .font(Font.custom("AkayaTelivigala-Regular", size: 40))
+                            .frame(width: 200, height: 50)
+                            .padding(20)
+                            .foregroundColor(.ourBegie)
+                            .background(Color.ourGreen)
+                            .cornerRadius(19)
                     }
-                }
-                .padding(.bottom, 20)
-                
-                Spacer()
-                
-                Label("Next..", systemImage: "")
-                    .font(Font.custom("AkayaTelivigala-Regular", size: 40))
-                    .frame(width: 200, height: 50)
-                    .padding(20)
-                    .foregroundColor(.ourBegie)
-                    .background(Color.ourGreen)
-                    .cornerRadius(19)
+                }.padding(12)
             }
         }
+        }
     }
-}
+
 
 struct NextView: View {
     var body: some View {
@@ -68,6 +87,6 @@ struct NextView: View {
 
 struct BeforeStarting_Previews: PreviewProvider {
     static var previews: some View {
-        BeforeStarting()
+        BeforeStarting(languages: .Arabic)
     }
 }
