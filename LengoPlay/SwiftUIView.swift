@@ -1,18 +1,18 @@
 //
-//  Stories.swift
+//  SwiftUIView.swift
 //  LengoPlay
 //
-//  Created by Ghaida Farhan on 1/30/24.
+//  Created by Ghaida Farhan on 2/9/24.
 //
 
 import SwiftUI
 
-struct Stories: View {
+struct SwiftUIView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    Stories()
+    SwiftUIView()
 }

@@ -17,7 +17,7 @@ struct Level: View {
                     .frame(width:500)
                 VStack(spacing: 100){
                     NavigationLink{
-                        Basic()
+                        SpeLevel()
                     }label:{
                         Label("Basics",systemImage: "")
                             .font(Font.custom("AkayaTelivigala-Regular", size: 70))
@@ -28,7 +28,7 @@ struct Level: View {
                             .cornerRadius(19)
                     }
                     NavigationLink{
-                        Stories()
+                        Stories(countries: .Japan)
                     }label:{
                         Label("Stories",systemImage: "")
                             .font(Font.custom("AkayaTelivigala-Regular", size: 70))
